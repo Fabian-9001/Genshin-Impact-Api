@@ -6,7 +6,7 @@ const { findUserById } = require('../users/users.controllers')
 
 const options = {
     jwtFromRequest: ExtractJwt.fromAuthHeaderWithScheme('jwt'),
-    secretOrKey: config.api.JWTsecret
+    secretOrKey: 12345678
 }
 
 passport.use(
